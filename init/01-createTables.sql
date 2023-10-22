@@ -1,4 +1,4 @@
-USE SITRecipe;
+USE RecipeHub;
 
 CREATE TABLE
     `file` (
