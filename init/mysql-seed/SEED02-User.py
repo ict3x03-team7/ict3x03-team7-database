@@ -4,8 +4,8 @@ import os
 import uuid
 
 db_connection = mysql.connector.connect(
-    host='mysql-db',
-    port='3306', 
+    host='mysql',
+    port='3323', 
     user='root',
     password= os.getenv('MYSQL_ROOT_PASSWORD'),  
     database=os.getenv('MYSQL_DATABASE')
